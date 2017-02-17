@@ -4,6 +4,10 @@ function setup () {//https://p5js.org/get-started/
   
 }
 function draw () {
+  if (mouseIspressed) {
+    fill(0);
+  } else {
+    fill(245);
   ellipse(50, 50, 80, 80);
   background();
 
