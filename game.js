@@ -1,5 +1,5 @@
 function setup () {//https://p5js.org/get-started/
-  
+  createCanvas(640, 480); }
   
   
 }
